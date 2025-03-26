@@ -1,0 +1,22 @@
+{
+  "name": "acousticChartServerDev_server",
+  "version": "1.0.0",
+  "description": "Backend Server for Voya Pal Bot Feedback",
+  "main": "acousticChartServerDev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon acousticChartServerDev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^3.1.5",
+    "oracledb": "^6.6.0"
+  }
+}
